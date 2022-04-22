@@ -1,4 +1,4 @@
-import docx
+import docx #run - pip install Python-Docx 
 import random
 
 mydoc = docx.Document()
