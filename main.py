@@ -4,7 +4,7 @@ import random
 mydoc = docx.Document()
 
 def print_hi(name):
-    mydoc.save ("C:\\Users\\Dmitry A. Stepanov\\Desktop\\Liza.docx") # <----- Please change dest folder and name of .docx file
+    mydoc.save ("C:\\Users\\XXXXXXXXXXXXXX\\Desktop\\Liza.docx") # <----- Please change dest folder and name of .docx file
     print(f'File is .... {name}')  # print message if done
 
 def calc_chr(): # method for randomly generate which math action will do
@@ -36,7 +36,7 @@ def calc_exemp (): # method for checking numbers and totals for example because 
 
 if __name__ == '__main__':
     mydoc.add_paragraph('\t\t\t\t TIME: [                             ]')
-    mydoc.save("C:\\Users\\Dmitry A. Stepanov\\Desktop\\Liza.docx") # <----- Please change dest folder and name of .docx file
+    mydoc.save("C:\\Users\\XXXXXXXXXXXXXX\\Desktop\\Liza.docx") # <----- Please change dest folder and name of .docx file
     for i in range (1, 25): # in doc file will be generated 25 strings with 4 examples for each string
         calc_str1 = calc_exemp() # generate example 1
         calc_str2 = calc_exemp() # generate example 2
