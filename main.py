@@ -42,7 +42,7 @@ def calc_exemp ():  # method for checking numbers and totals for example
 
 
 if __name__ == '__main__':
-    mydoc.add_paragraph('\t\t\t\t TIME: [                             ]')
+    mydoc.add_paragraph('TIME 1: [\t\t\t]\t\tTIME 2: [\t\t\t]')
     save_message('File is .... created!')
     for i in range (1, 25):  # iterations for putting strings to .docx file. (1,25) - 25 strings with examples
         calc_str1 = calc_exemp()
@@ -52,3 +52,4 @@ if __name__ == '__main__':
         calc_str = str(str(calc_str1) + '\t' + str(calc_str2) + '\t' + str(calc_str3) + '\t' + str(calc_str4))
         mydoc.add_paragraph(calc_str)
     save_message('File is .... filled!')
+
