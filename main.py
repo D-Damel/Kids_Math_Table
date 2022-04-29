@@ -7,7 +7,7 @@ folder_path = "C:\\Users\\oxana\\Desktop\\Liza.docx"  # path to folder and name 
 
 
 def save_message(name):  # method for save to file and send message to console
-    mydoc.save (folder_path)
+    mydoc.save(folder_path)
     print(f'{name}')
 
 
@@ -25,7 +25,7 @@ def rnd_num():  # method for randomly generate numbers for example
     return number
 
 
-def calc_exemp ():  # method for checking numbers and totals for example
+def calc_exemp():  # method for checking numbers and totals for example
     number1 = rnd_num()
     number2 = rnd_num()
     calc_char = calc_chr()
